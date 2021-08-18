@@ -17,7 +17,7 @@ export default {
     content: null
   }),
   async mounted() {
-    Quill = (await import('quill')).default
+    Quill = (await import(/* webpackPrefetch: true */ 'quill')).default
 
     const editorElement = this.$refs.editor
 
