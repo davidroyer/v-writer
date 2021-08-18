@@ -1,6 +1,6 @@
 {
   "name": "v-writer",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/v-writer.ssr.js",
   "browser": "dist/v-writer.esm.js",
