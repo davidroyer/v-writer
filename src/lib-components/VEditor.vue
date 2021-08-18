@@ -16,7 +16,6 @@ export default {
     quill: {},
     content: null
   }),
-
   async mounted() {
     Quill = (await import('quill')).default
 
